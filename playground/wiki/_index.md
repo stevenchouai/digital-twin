@@ -12,15 +12,15 @@
 
 ### Published Articles
 
-- [`../../Blog/Published/2026-04-10-ai-workflow-is-the-product.md`](/Users/stevenchou/Projects/digital-twin/playground/Blog/Published/2026-04-10-ai-workflow-is-the-product.md)
+- [`2026-04-10-ai-workflow-is-the-product.md`](../../Blog/Published/2026-04-10-ai-workflow-is-the-product.md)
 
 ### Summaries
 
-- [`summaries/2026-04-12-agent-products.md`](/Users/stevenchou/Projects/digital-twin/playground/wiki/summaries/2026-04-12-agent-products.md)
+- [`2026-04-12-agent-products.md`](./summaries/2026-04-12-agent-products.md)
 
 ### Agent Learnings
 
-- [`outputs/agent-learnings/2026-04-15-writing-rules.md`](/Users/stevenchou/Projects/digital-twin/playground/wiki/outputs/agent-learnings/2026-04-15-writing-rules.md)
+- [`2026-04-15-writing-rules.md`](./outputs/agent-learnings/2026-04-15-writing-rules.md)
 
 ## What Matters In This Workspace
 

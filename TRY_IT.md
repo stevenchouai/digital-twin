@@ -4,7 +4,7 @@
 
 ## Step 1: 拿最小工作区起步
 
-打开 [`playground/`](/Users/stevenchou/Projects/digital-twin/playground)。
+打开 [`playground/`](./playground)。
 
 这里已经给你放好了最小必要结构：
 
@@ -19,7 +19,7 @@
 
 ## Step 2: 跑第一次任务
 
-复制 [`playground/FIRST_PROMPT.md`](/Users/stevenchou/Projects/digital-twin/playground/FIRST_PROMPT.md) 里的 prompt。
+复制 [`playground/FIRST_PROMPT.md`](./playground/FIRST_PROMPT.md) 里的 prompt。
 
 这次运行成功后，你应该看到：
 

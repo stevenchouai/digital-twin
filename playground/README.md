@@ -6,7 +6,7 @@
 
 ## 你应该怎么用
 
-1. 先看 [`FIRST_PROMPT.md`](/Users/stevenchou/Projects/digital-twin/playground/FIRST_PROMPT.md)
+1. 先看 [`FIRST_PROMPT.md`](./FIRST_PROMPT.md)
 2. 再看这个目录已经有哪些文件
 3. 跑一次
 4. 然后把内容逐步替换成你自己的
