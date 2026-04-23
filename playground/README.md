@@ -1,0 +1,25 @@
+# Playground
+
+这是你搭自己的 digital twin MVP 的起点。
+
+这个目录存在的目的，不是给你看例子，而是让你从一个最小 skeleton 开始，马上能跑。
+
+## 你应该怎么用
+
+1. 先看 [`FIRST_PROMPT.md`](/Users/stevenchou/Projects/digital-twin/playground/FIRST_PROMPT.md)
+2. 再看这个目录已经有哪些文件
+3. 跑一次
+4. 然后把内容逐步替换成你自己的
+
+## 你第一次应该观察什么
+
+不要先盯着文章写得好不好。
+
+先看这四件事有没有发生：
+
+- 它先读了上下文
+- 它没有机械改写
+- 它把结果写回了系统
+- 它留下了下次还能用的规则
+
+如果这四件事发生了，你就已经跑出了自己的最小 twin workflow。
