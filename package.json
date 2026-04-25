@@ -1,0 +1,28 @@
+{
+  "name": "digital-twin",
+  "version": "1.0.0",
+  "description": "<div align=\"center\">   <img src=\"./assets/banner.png\" alt=\"Digital Twin Banner\" width=\"800\" />",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevenchouai/digital-twin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/stevenchouai/digital-twin/issues"
+  },
+  "homepage": "https://github.com/stevenchouai/digital-twin#readme",
+  "devDependencies": {
+    "vitepress": "^1.6.4",
+    "vue": "^3.5.33"
+  }
+}

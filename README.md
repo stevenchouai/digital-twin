@@ -1,104 +1,83 @@
-# digital-twin
+<div align="center">
+  <img src="./assets/banner.png" alt="Digital Twin Banner" width="800" />
 
-用 3 步，从 0 搭一个你自己的 digital twin MVP。
+  <h1 align="center">digital-twin</h1>
+  <p align="center">
+    <strong>Your Personal Agent Operating Layer.</strong><br/>
+    Build an AI that inherits your logic, style, and memory, instead of just answering prompts.
+  </p>
 
-这个仓库不是给你一堆提示词。
+  <p align="center">
+    <a href="https://github.com/stevenchouai/digital-twin/stargazers"><img src="https://img.shields.io/github/stars/stevenchouai/digital-twin?style=flat-square" alt="Stars" /></a>
+    <a href="https://github.com/stevenchouai/digital-twin/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="License" /></a>
+    <a href="https://stevenchouai.github.io/digital-twin/"><img src="https://img.shields.io/badge/docs-live-brightgreen?style=flat-square" alt="Docs" /></a>
+  </p>
+</div>
 
-它是帮你搭出一个最小可用链路：有原始素材，有知识库入口，有写回结果，有 learning loop。
+## 🚀 Why `digital-twin`?
 
-## 3 步开始
+Most AI agents start from scratch every time you talk to them. They don't know what you know, how you think, or where you save things. 
 
-### 1. 复制这个最小工作区
+**`digital-twin` is different.** It’s not just a set of prompts. It’s an **operating model** that gradually externalizes your workflow so an agent can inherit it.
 
-从 [`playground/`](./playground) 开始。
+- 🛑 **Traditional AI:** Prompt -> Answer -> End.
+- 🟢 **Digital Twin:** Understand Intent -> Retrieve your Knowledge -> Route to your Skills -> Execute -> **Write Back & Learn**.
 
-你会得到：
+## ✨ Core Features
 
-- 一个最小 `AGENTS.md`
-- 一份 `raw/thoughts/` 原始素材
-- 一个最小 `wiki/`
-- 一个已有 `Blog/Published/`
-- 一个已有 `agent-learnings/`
+- **🧠 Deep Retrieval:** Pulls from your personal `wiki/` and past `agent-learnings/` before acting.
+- **🛠 Capability Routing:** Uses specific workflows (Skills) for writing, coding, or researching instead of a generic mega-prompt.
+- **💾 Write-back System:** Generates real files (markdown, code) in your file system, not just chat bubbles.
+- **🔄 Learning Loop:** Extracts new rules and preferences from every session so it gets smarter next time.
 
-也就是说，你一开始就不是空仓。
+## 🌟 Showcase: The "Elon Musk" Digital Clone
 
-### 2. 跑第一次任务
+We don't just talk about it—we built a demo to prove it. Check out the [Elon Musk Digital Twin Demo](./examples/elon-musk) to see how the system uses Elon's public speeches, tweets, and first-principles thinking to operate just like him.
 
-直接用 [`playground/FIRST_PROMPT.md`](./playground/FIRST_PROMPT.md) 里的 prompt。
+<div align="center">
+  <a href="./examples/elon-musk"><strong>👉 Explore the Elon Musk Demo</strong></a>
+</div>
 
-这一步你会得到：
+## 🏗 Architecture Workflow
 
-- 一篇新的博客草稿
-- 一条新的 learning note
+```mermaid
+graph TD
+    A[User Intent] --> B(1. Understand Intent)
+    B --> C(2. Retrieve Context)
+    C -->|Reads wiki/ & learnings/| D(3. Route to Capability)
+    D --> E(4. Execute & Write Back)
+    E -->|Saves files| F(5. Learning Loop)
+    F -->|Updates rules| C
+```
 
-如果你只得到了聊天里的一段答案，而没有新文件，那这次运行就不算成功。
+## 🏁 Quick Start (Build Your MVP)
 
-### 3. 换成你自己的内容
+You don't need a massive database to start. You can build your MVP in 3 steps:
 
-把 `playground/raw/thoughts/` 里的素材换成你的语音转写、笔记、会议记录或者草稿。
+### 1. Initialize the Workspace
+Start with the [`playground/`](./playground) folder. It provides a minimal structure:
+- `AGENTS.md`
+- `raw/thoughts/` (raw materials)
+- `wiki/` (knowledge base)
+- `agent-learnings/` (memory)
 
-再把 `playground/wiki/` 和 `Blog/Published/` 里的内容慢慢替换成你自己的知识和输出。
+### 2. Run Your First Task
+Use [`playground/FIRST_PROMPT.md`](./playground/FIRST_PROMPT.md) in Cursor, Claude, or your LLM runner of choice.
+You will see it generate actual files (a blog post, a learning note) instead of just chatting.
 
-这一步你会得到：
+### 3. Clone Yourself
+Replace the files in `playground/raw/thoughts/` and `wiki/` with your own notes, transcripts, and rules. Watch the twin adapt to you.
 
-- 你自己的最小 knowledge base
-- 你自己的第一版 digital twin workflow
+## 📚 Documentation
 
-到这里，你已经不是在看 demo，而是在玩你自己的系统了。
+Dive deeper into the philosophy and architecture:
+- [📖 **Documentation Website**](https://stevenchouai.github.io/digital-twin/)
+- [`THESIS.md`](./THESIS.md): The core philosophy behind the Personal Agent Operating Layer.
+- [`WORKFLOW.md`](./WORKFLOW.md): How the 5-step loop actually runs under the hood.
+- [`SKILL.md`](./SKILL.md): How to define specific capabilities.
 
-## 先看一眼它和传统方式差在哪
+## 🤝 Contributing
+Contributions are welcome! Please read our contributing guidelines and submit PRs.
 
-经典场景只看一个就够了：
-
-> 把一篇语音转写整理成一篇可发布的博客草稿。
-
-![digital-twin MVP demo](./assets/mvp-demo.png)
-
-传统 AI：
-
-- 读取当前 prompt
-- 直接改写 transcript
-- 在聊天里返回一个答案
-
-`digital-twin`：
-
-- 先读已有系统
-- 判断重复和 throughline
-- 把结果写回草稿、summary、learning note
-
-所以差别不是“写得更漂亮”。
-
-差别是它开始形成：
-
-- retrieval
-- write-back
-- memory over time
-
-## 这个仓库里最重要的文件
-
-如果你只想搭自己的 MVP，先看这几个：
-
-- [`playground/README.md`](./playground/README.md)
-- [`playground/FIRST_PROMPT.md`](./playground/FIRST_PROMPT.md)
-- [`playground/AGENTS.md`](./playground/AGENTS.md)
-- [`TRY_IT.md`](./TRY_IT.md)
-
-其他内容都是辅助这条主链路的：
-
-- [`SKILL.md`](./SKILL.md): skill 的完整定义
-- [`examples.md`](./examples.md): 更多例子
-- [`WORKFLOW.md`](./WORKFLOW.md): 背后的 workflow
-- [`THESIS.md`](./THESIS.md): 更完整的 big why
-
-## 什么才算你真的跑起来了
-
-不是你觉得这个概念挺有意思。
-
-而是你已经能在本地明显看到这几样东西：
-
-- 一个 raw material 进入系统
-- 一个新输出被写回 `Blog/Published/`
-- 一个新规则被写回 `agent-learnings/`
-- 下一次任务不再完全从零开始
-
-如果这四件事发生了，你的 digital twin MVP 就已经成立了。
+## 📄 License
+This project is licensed under the MIT License.
