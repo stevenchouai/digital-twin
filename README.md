@@ -18,10 +18,33 @@
 
 Most AI agents start from scratch every time you talk to them. They don't know what you know, how you think, or where you save things. 
 
-**`digital-twin` is different.** It’s not just a set of prompts. It’s an **operating model** that gradually externalizes your workflow so an agent can inherit it.
+**`digital-twin` is different.** It's not just a set of prompts. It's an **operating model** that gradually externalizes your workflow so an agent can inherit it.
 
 - 🛑 **Traditional AI:** Prompt -> Answer -> End.
 - 🟢 **Digital Twin:** Understand Intent -> Retrieve your Knowledge -> Route to your Skills -> Execute -> **Write Back & Learn**.
+
+<div align="center">
+  <img src="./assets/architecture-overview.png" alt="Digital Twin Architecture" width="720" />
+  <p><em>How the system works: Raw Input → Knowledge Wiki → Capability Router → Execute & Write Back → Learning Loop</em></p>
+</div>
+
+## 🛠 Capability Routing — The Brain of Your Twin
+
+> What makes a digital twin powerful is not a mega-prompt — it's **knowing which skill to use for which task**.
+
+The twin doesn't do everything the same way. It detects your intent, then routes to the right capability module — each with its own workflow, constraints, and output format.
+
+| Intent | Capability | What It Does |
+|--------|-----------|-------------|
+| 写文章、整理口语记录 | [Content Creation](./capabilities/content-creation.md) | Reads wiki & style guide → drafts → publishes to `Blog/` |
+| 刷新知识库、ingest 资料 | [Wiki Management](./capabilities/wiki-management.md) | Scans `raw/` for increments → creates summaries → updates index |
+| 研究代码库、分析架构 | [Codebase Research](./capabilities/codebase-research.md) | Builds mental model → extracts value → produces research report |
+| 改网站、优化 SEO | [Site Improvement](./capabilities/site-improvement.md) | Checks existing positioning → edits files → writes back rules |
+| 改简历、JD 分析 | [Resume Craft](./capabilities/resume-craft.md) | Reads career context → tailors to JD → outputs draft |
+| 复盘、沉淀经验 | [Learning Loop](./capabilities/learning-loop.md) | Asks 4 questions → extracts durable rules → writes to wiki |
+| review 知识库、聚类整理 | [Knowledge Growth](./capabilities/knowledge-growth.md) | Syncs state → digests new notes → clusters topics → reviews timeline |
+
+Each capability is a standalone file. You can add, remove, or modify them without touching the core system.
 
 ## ✨ Core Features
 
@@ -32,10 +55,24 @@ Most AI agents start from scratch every time you talk to them. They don't know w
 
 ## 🌟 Showcase: The "Elon Musk" Digital Clone
 
-We don't just talk about it—we built a demo to prove it. Check out the [Elon Musk Digital Twin Demo](./examples/elon-musk) to see how the system uses Elon's public speeches, tweets, and first-principles thinking to operate just like him.
+We don't just talk about it — we built a complete demo to prove it. The [Elon Musk Digital Twin](./examples/elon-musk) shows how the system uses real public resources to operate with his logic.
+
+### What's in the demo?
+
+- **4 raw sources** — Starship engineering feedback, Tesla production lessons, SpaceX culture, AI risk stance
+- **4 wiki pages** — Management rules, First Principles, Decision-Making framework, Communication style
+- **Each resource has a reason** — See [`SHOWCASE.md`](./examples/elon-musk/SHOWCASE.md) for why each was collected and how they connect
+
+### Before vs After (quick preview)
+
+| | Without wiki | With wiki loaded |
+|---|---|---|
+| **Opening** | "Dear Team, I wanted to provide an update..." | "The tile process has an Idiot Index problem." |
+| **Instruction** | "I'd like to suggest we explore improvements..." | "DELETE the manual gap check. Effective immediately." |
+| **Sign-off** | "Best regards, Elon" | "This is not optional. Elon" |
 
 <div align="center">
-  <a href="./examples/elon-musk"><strong>👉 Explore the Elon Musk Demo</strong></a>
+  <a href="./examples/elon-musk"><strong>👉 Explore the Full Elon Musk Demo</strong></a> · <a href="./examples/elon-musk/SHOWCASE.md"><strong>📖 Read the Showcase</strong></a>
 </div>
 
 ## 🏗 Architecture Workflow

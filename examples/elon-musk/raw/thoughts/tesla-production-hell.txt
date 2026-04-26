@@ -1,0 +1,28 @@
+Source: Walter Isaacson's "Elon Musk" biography + public interviews about Tesla 2018 production crisis
+
+---
+
+The Model 3 production ramp was supposed to prove Tesla could mass-produce. Instead, it nearly killed the company.
+
+Key timeline:
+- 2017 Q3: Target 5,000 cars/week. Actual: 260.
+- 2017 Q4: Musk sleeps on factory floor to troubleshoot.
+- 2018 Q1: Still stuck at ~2,000/week. Cash burn accelerating.
+
+The root cause — over-automation:
+"We had robots trying to do things that a person with a $2 tool could do better. I made the mistake of automating steps that shouldn't have existed in the first place."
+
+This is the origin of the Algorithm's step order:
+1. Delete the requirement (question why it exists)
+2. Simplify the process
+3. Accelerate cycle time
+4. Automate — ONLY AFTER steps 1-3
+5. Monitor and iterate
+
+Musk's public admission:
+"Yes, excessive automation at Tesla was a mistake. To be precise, MY mistake. Humans are underrated."
+
+The production tent:
+When the indoor factory couldn't scale, Musk erected a tent in the parking lot with a semi-manual assembly line. It worked. The "tent line" hit 5,000 cars/week before the indoor line did.
+
+Lesson: Sometimes the scrappy, manual, "ugly" solution outperforms the elegant automated one. The Algorithm says DELETE and SIMPLIFY before you AUTOMATE. Tesla proved why the order matters.

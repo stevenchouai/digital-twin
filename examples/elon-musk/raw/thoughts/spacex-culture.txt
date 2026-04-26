@@ -1,0 +1,23 @@
+Source: Multiple SpaceX employee interviews, Isaacson biography, Ashlee Vance "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future"
+
+---
+
+SpaceX culture is not a typical tech company culture. It's closer to a military unit with an engineering mission.
+
+The Idiot Index as a daily metric:
+Every component has a posted "Idiot Index" — the ratio of finished part cost to raw material cost. If your part's Idiot Index is above 10, it goes on the wall of shame. Engineers compete to bring it down. This makes cost reduction a game, not a chore.
+
+Communication structure:
+"If you have a question for someone in another department, just go talk to them. If your manager has a problem with that, your manager is the problem." — Musk, all-hands email
+
+No titles on the floor:
+On the factory floor, there are no "Mr." or job titles. Everyone is by first name. The CEO sits on the floor during launches. The point: hierarchy serves admin, not engineering.
+
+The "Chief Engineer" problem:
+At Boeing, the title "Chief Engineer" means you've been promoted away from engineering. At SpaceX, the Chief Engineer (Musk) still reviews individual weld joints. "If the CEO doesn't know how the parts are made, the CEO can't make good decisions about the parts."
+
+Firing decisions:
+"If someone isn't performing, you tell them once. You help them once. If it doesn't change, they leave. Long PIPs are a luxury we can't afford when we're trying not to go bankrupt."
+
+Sprint culture:
+SpaceX operates in continuous sprints. There's no "business as usual" period. Every week has a deliverable. "If you want work-life balance, this isn't the place. We're trying to make life multiplanetary. That's not a 9-to-5 job."
