@@ -33,6 +33,16 @@ User request
   -> distill reusable learning
 ```
 
+![Digital Twin operating loop](/visuals/operating-loop.svg)
+
+这个 loop 的重点不是“让 AI 看起来更像你”，而是让每次高价值任务都进入同一个可复用链路：先读已有资产，再选择能力模块，然后产出文件，最后把新的规则沉淀下来。
+
+## Asset Map
+
+![Digital Twin asset map](/visuals/asset-map.svg)
+
+`digital-twin` 不是把所有东西塞进一个 prompt，而是把人的长期资产拆成可读、可写、可复用的文件层：raw notes、wiki、published site、skills、learning notes。这样 agent 每完成一次任务，都能让系统变得更清楚一点。
+
 ## 四个关键设计
 
 ### 1. Retrieval First
