@@ -3,23 +3,23 @@ layout: home
 
 hero:
   name: "digital-twin"
-  text: "Personal Agent Operating Layer"
-  tagline: "Build an AI that inherits your logic, style, and memory, instead of just answering prompts."
+  text: "Personal Agent OS Blueprint"
+  tagline: "Build an AI operating layer that retrieves your knowledge, routes to your skills, writes durable outputs, and learns back into your workflow."
   actions:
     - theme: brand
       text: Get Started
       link: /guide/thesis
     - theme: alt
-      text: Explore Elon Musk Demo
-      link: /demo/elon-musk
+      text: Run Steven Workflow
+      link: /demo/steven-workflow
 
 features:
-  - title: 🧠 Deep Retrieval
-    details: Pulls from your personal wiki/ and past agent-learnings/ before acting, ensuring context continuity.
-  - title: 🛠 Capability Routing
-    details: Uses specific workflows (Skills) for writing, coding, or researching instead of a generic mega-prompt.
-  - title: 💾 Write-back System
-    details: Generates real files (markdown, code) in your file system, not just chat bubbles.
-  - title: 🔄 Learning Loop
-    details: Extracts new rules and preferences from every session so it gets smarter next time.
+  - title: 🧠 Personal Wiki First
+    details: Reads wiki/, prior outputs, summaries, and agent-learnings/ before acting, so context lives outside the chat window.
+  - title: 🧭 Intent Routing
+    details: Classifies the request and chooses the matching capability instead of sending every task through one generic prompt.
+  - title: 🛠 Skills / Capabilities
+    details: Keeps writing, research, wiki management, resume work, site improvement, and learning loops as modular workflow files.
+  - title: 🔄 Write-back Learning
+    details: Produces durable files and saves reusable rules, preferences, and failure modes for the next run.
 ---

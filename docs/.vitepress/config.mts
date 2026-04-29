@@ -8,6 +8,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Guide', link: '/guide/thesis' },
+      { text: 'Steven Workflow', link: '/demo/steven-workflow' },
       { text: 'Elon Musk Demo', link: '/demo/elon-musk' }
     ],
 
@@ -23,6 +24,7 @@ export default defineConfig({
       {
         text: 'Showcase',
         items: [
+          { text: 'Steven Workflow', link: '/demo/steven-workflow' },
           { text: 'Elon Musk Demo', link: '/demo/elon-musk' }
         ]
       }

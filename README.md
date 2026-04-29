@@ -18,7 +18,9 @@
 
 Most AI agents start from scratch every time you talk to them. They don't know what you know, how you think, or where you save things. 
 
-**`digital-twin` is different.** It's not just a set of prompts. It's an **operating model** that gradually externalizes your workflow so an agent can inherit it.
+**`digital-twin` is different.** It is not a prompt pack, a generic RAG demo, or a chatbot persona. It is a **Personal Agent Operating Layer blueprint**: a file-based template for making an agent inherit your long-running knowledge, workflows, skills, and learning loop.
+
+This repository currently ships the operating model and workspace structure, not a hosted runtime. The point is to show how to organize a personal AI system so any capable coding agent or AI IDE can run it against real files.
 
 - 🛑 **Traditional AI:** Prompt -> Answer -> End.
 - 🟢 **Digital Twin:** Understand Intent -> Retrieve your Knowledge -> Route to your Skills -> Execute -> **Write Back & Learn**.
@@ -48,10 +50,24 @@ Each capability is a standalone file. You can add, remove, or modify them withou
 
 ## ✨ Core Features
 
-- **🧠 Deep Retrieval:** Pulls from your personal `wiki/` and past `agent-learnings/` before acting.
-- **🛠 Capability Routing:** Uses specific workflows (Skills) for writing, coding, or researching instead of a generic mega-prompt.
-- **💾 Write-back System:** Generates real files (markdown, code) in your file system, not just chat bubbles.
-- **🔄 Learning Loop:** Extracts new rules and preferences from every session so it gets smarter next time.
+- **🧠 Personal Wiki First:** Pulls from your `wiki/`, prior outputs, style rules, and `agent-learnings/` before acting.
+- **🧭 Intent Routing:** Classifies the request before execution, then chooses the right capability instead of forcing everything through one mega-prompt.
+- **🛠 Skills / Capabilities:** Keeps reusable workflows in standalone capability files for writing, research, wiki management, resume work, site improvement, and learning loops.
+- **💾 Write-back System:** Generates durable files in your workspace, not just chat bubbles.
+- **🔄 Learning Loop:** Distills new preferences, failure modes, and reusable rules into future context.
+
+## 📈 Why This Fits the 2026 Agent Trend
+
+The market is moving from "ask a model a question" toward **personal agent systems** that can remember context, call tools, and operate inside a user's real workflow. `digital-twin` maps that trend into a practical local blueprint:
+
+| Trend | What it means in practice | How this repo handles it today |
+|-------|---------------------------|--------------------------------|
+| Agent memory | Useful agents need durable context across sessions, not just a longer chat window. | Uses `wiki/`, published outputs, and `agent-learnings/` as inspectable memory files. |
+| MCP / tools / skills | Agents increasingly need standard ways to reach files, apps, tools, and repeatable workflows. | Models capabilities as modular skill files that can later be connected to MCP servers or AI IDE tools. |
+| Personal AI workflow | The differentiator is not a generic assistant; it is whether the agent follows one person's actual operating model. | Routes by intent, reads Steven-style assets, executes in the workspace, then writes back rules. |
+| Local-first / BYO knowledge | Users need control over private notes, project files, and knowledge boundaries. | Keeps the template file-based and bring-your-own-knowledge instead of requiring a proprietary memory store. |
+
+The project is intentionally honest about its current state: it is a **blueprint/template** for a Personal Agent OS, not a claim that every connector, scheduler, memory service, or UI has already been implemented.
 
 ## 🌟 Showcase: The "Elon Musk" Digital Clone
 
@@ -87,23 +103,30 @@ graph TD
     F -->|Updates rules| C
 ```
 
-## 🏁 Quick Start (Build Your MVP)
+## 🏁 Quick Start (Run the Steven Workflow Demo)
 
-You don't need a massive database to start. You can build your MVP in 3 steps:
+You don't need a massive database to start. The [`playground/`](./playground) folder is a lightweight Steven-style workflow demo that shows the full operating loop with real files.
 
-### 1. Initialize the Workspace
-Start with the [`playground/`](./playground) folder. It provides a minimal structure:
-- `AGENTS.md`
-- `raw/thoughts/` (raw materials)
-- `wiki/` (knowledge base)
-- `agent-learnings/` (memory)
+### What the demo shows
 
-### 2. Run Your First Task
-Use [`playground/FIRST_PROMPT.md`](./playground/FIRST_PROMPT.md) in Cursor, Claude, or your LLM runner of choice.
-You will see it generate actual files (a blog post, a learning note) instead of just chatting.
+| Step | File / Action | What to observe |
+|------|---------------|-----------------|
+| Input | [`playground/raw/thoughts/2026-04-23-why-most-ai-feels-generic.md`](./playground/raw/thoughts/2026-04-23-why-most-ai-feels-generic.md) | Raw thought material enters the system. |
+| Knowledge retrieval | [`playground/wiki/_index.md`](./playground/wiki/_index.md), prior blog posts, and learning notes | The agent checks existing context before writing. |
+| Capability routing | [`capabilities/content-creation.md`](./capabilities/content-creation.md) | The request routes to content creation instead of generic chat. |
+| Execution | `playground/Blog/Published/` | The expected output is a durable draft file. |
+| Write-back learning | `playground/wiki/outputs/agent-learnings/` | The run should leave reusable writing rules for next time. |
 
-### 3. Clone Yourself
-Replace the files in `playground/raw/thoughts/` and `wiki/` with your own notes, transcripts, and rules. Watch the twin adapt to you.
+### Run it
+
+1. Open [`playground/`](./playground) in Cursor, Claude Code, Codex, Windsurf, or your agent runner of choice.
+2. Open [`playground/FIRST_PROMPT.md`](./playground/FIRST_PROMPT.md).
+3. Ask the agent to execute it inside the workspace.
+4. Check that it writes a blog draft under `playground/Blog/Published/` and a learning note under `playground/wiki/outputs/agent-learnings/`.
+
+If the agent only returns a chat answer, the demo failed: the operating layer is about retrieval, routing, execution, and write-back.
+
+To make it yours, replace the files in `playground/raw/thoughts/` and `wiki/` with your own notes, transcripts, and rules. Keep the loop.
 
 ## 📚 Documentation
 
@@ -112,6 +135,7 @@ Dive deeper into the philosophy and architecture:
 - [`THESIS.md`](./THESIS.md): The core philosophy behind the Personal Agent Operating Layer.
 - [`WORKFLOW.md`](./WORKFLOW.md): How the 5-step loop actually runs under the hood.
 - [`SKILL.md`](./SKILL.md): How to define specific capabilities.
+- [`docs/demo/steven-workflow.md`](./docs/demo/steven-workflow.md): A walkthrough of the self-workflow demo.
 
 ## 🤝 Contributing
 Contributions are welcome! Please read our contributing guidelines and submit PRs.
