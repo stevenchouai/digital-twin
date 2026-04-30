@@ -14,6 +14,17 @@
   </p>
 </div>
 
+## TL;DR
+
+`digital-twin` is a file-first blueprint for building a personal agent operating layer: keep your knowledge in inspectable files, route work to focused capabilities, produce durable outputs, and write reusable lessons back into the system.
+
+If you only have 5 minutes, start here:
+
+1. Read the [thesis](./THESIS.md) to understand the operating model.
+2. Open [`playground/`](./playground) to see the file structure of a personal twin.
+3. Follow [TRY_IT.md](./TRY_IT.md) to run a small writing/research workflow against local files.
+4. Browse the live docs: <https://stevenchouai.github.io/digital-twin/>.
+
 ## 🚀 Why `digital-twin`?
 
 Most AI agents start from scratch every time you talk to them. They don't know what you know, how you think, or where you save things. 
