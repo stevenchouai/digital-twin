@@ -42,6 +42,18 @@ The demo task is simple: turn one raw thought into a publishable blog draft. The
 
 If the agent only returns a chat response, the demo did not succeed. The whole point is to move from answer generation to asset generation.
 
+## Success Checklist
+
+Use this checklist after a run to separate a real Personal Agent OS loop from a polished chatbot answer:
+
+- [ ] **Retrieval happened first** — the agent referenced `wiki/_index.md`, prior published work, summaries, and durable writing rules before drafting.
+- [ ] **Routing was explicit** — the run named the content creation capability and followed its file/output contract.
+- [ ] **A durable artifact exists** — the draft was written under `playground/Blog/Published/`, not only returned in chat.
+- [ ] **Learning was captured** — a reusable rule, preference, or skip condition was written under `playground/wiki/outputs/agent-learnings/`.
+- [ ] **The output is non-duplicative** — the draft explains how it differs from the existing `ai-workflow-is-the-product` post.
+
+Common failure modes are also useful signal: if the agent ignores the wiki, writes to the wrong folder, duplicates an existing essay, or leaves no learning note, the operating layer needs a tighter capability file or index entry.
+
 ## Operating Model Trace
 
 | Step | Expected behavior |
