@@ -135,7 +135,7 @@ You don't need a massive database to start. The [`playground/`](./playground) fo
 3. Ask the agent to execute it inside the workspace.
 4. Check that it writes a blog draft under `playground/Blog/Published/` and a learning note under `playground/wiki/outputs/agent-learnings/`.
 
-If the agent only returns a chat answer, the demo failed: the operating layer is about retrieval, routing, execution, and write-back.
+If the agent only returns a chat answer, the demo failed: the operating layer is about retrieval, routing, execution, and write-back. For a stricter proof check, use the [Steven Workflow success checklist](./docs/demo/steven-workflow.md#success-checklist).
 
 To make it yours, replace the files in `playground/raw/thoughts/` and `wiki/` with your own notes, transcripts, and rules. Keep the loop.
 
