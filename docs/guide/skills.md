@@ -26,4 +26,5 @@
 | 改网站、网站优化、SEO、信息架构、内容展示 | 网站优化 | `capabilities/site-improvement.md` |
 | 改简历、JD 分析、求职材料、定位梳理 | 简历工坊 | `capabilities/resume-craft.md` |
 | 复盘任务、沉淀经验、维护数字分身、更新规则 | 学习闭环 | `capabilities/learning-loop.md` |
+| review 知识库、聚类整理、回顾最近状态变化 | 知识库成长 | `capabilities/knowledge-growth.md` |
 | 单纯问知识库问题、总结观点、回顾想法 | 知识查询 | 直接查 wiki 并回答 |

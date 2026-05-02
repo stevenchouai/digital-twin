@@ -18,6 +18,7 @@ features:
     details: Reads wiki/, prior outputs, summaries, and agent-learnings/ before acting, so context lives outside the chat window.
   - title: 🧭 Intent Routing
     details: Classifies the request and chooses the matching capability instead of sending every task through one generic prompt.
+    link: /guide/capabilities
   - title: 🛠 Skills / Capabilities
     details: Keeps writing, research, wiki management, resume work, site improvement, and learning loops as modular workflow files.
   - title: 🔄 Write-back Learning

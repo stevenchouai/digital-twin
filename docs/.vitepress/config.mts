@@ -19,6 +19,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Guide', link: '/guide/thesis' },
+      { text: 'Capability Router', link: '/guide/capabilities' },
       { text: 'Steven Workflow', link: '/demo/steven-workflow' },
       { text: 'Elon Musk Demo', link: '/demo/elon-musk' }
     ],
@@ -29,6 +30,7 @@ export default defineConfig({
         items: [
           { text: 'Thesis', link: '/guide/thesis' },
           { text: 'Workflow', link: '/guide/workflow' },
+          { text: 'Capability Router', link: '/guide/capabilities' },
           { text: 'Skills', link: '/guide/skills' }
         ]
       },
