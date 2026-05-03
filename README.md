@@ -150,7 +150,7 @@ Dive deeper into the philosophy and architecture:
 - [`docs/demo/steven-workflow.md`](./docs/demo/steven-workflow.md): A walkthrough of the self-workflow demo.
 
 ## 🤝 Contributing
-Contributions are welcome! Please read our contributing guidelines and submit PRs.
+Contributions are welcome when they make the operating loop easier to inspect, run, or adapt. Please read [CONTRIBUTING.md](./CONTRIBUTING.md) before opening a PR.
 
 ## 📄 License
 This project is licensed under the MIT License.
