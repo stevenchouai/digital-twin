@@ -146,6 +146,7 @@ Dive deeper into the philosophy and architecture:
 - [`THESIS.md`](./THESIS.md): The core philosophy behind the Personal Agent Operating Layer.
 - [`WORKFLOW.md`](./WORKFLOW.md): How the 5-step loop actually runs under the hood.
 - [`SKILL.md`](./SKILL.md): How to define specific capabilities.
+- [`docs/demo/proof-chain.md`](./docs/demo/proof-chain.md): A reviewer-facing map from claims to inspectable artifacts.
 - [`docs/demo/steven-workflow.md`](./docs/demo/steven-workflow.md): A walkthrough of the self-workflow demo.
 
 ## 🤝 Contributing
