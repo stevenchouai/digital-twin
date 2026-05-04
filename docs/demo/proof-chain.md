@@ -24,16 +24,16 @@ Use this as a reviewer checklist when evaluating the project:
 
 ## Repository size snapshot
 
-This repo is intentionally small enough to audit manually. Current public-source snapshot, generated with `pygount --format=summary --folders-to-skip='.git,node_modules,venv,.venv,__pycache__,.cache,dist,build,.next,.tox,vendor,third_party,docs/.vitepress/dist' .` on 2026-05-03:
+This repo is intentionally small enough to audit manually. Current public-source snapshot, generated with `pygount --format=summary --folders-to-skip='.git,node_modules,venv,.venv,__pycache__,.cache,dist,build,.next,.tox,vendor,third_party,docs/.vitepress/dist' .` on 2026-05-04:
 
 | Language / type | Files | Code lines | Comment / docs lines |
 |---|---:|---:|---:|
-| Markdown | 40 | 0 | 1,493 |
+| Markdown | 40 | 0 | 1,502 |
 | YAML | 1 | 45 | 0 |
 | JSON | 1 | 23 | 0 |
 | Text only | 4 | 0 | 56 |
 | Other / generated / binary | 9 | 0 | 0 |
-| **Total** | **55** | **68** | **1,549** |
+| **Total** | **55** | **68** | **1,558** |
 
 Notes for reviewers: pygount classifies Markdown as documentation/comment lines rather than code, which is expected for this blueprint-style repository. The build output under `docs/.vitepress/dist` is excluded so the snapshot reflects source files rather than generated artifacts.
 
