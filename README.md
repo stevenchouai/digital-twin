@@ -16,7 +16,20 @@
 
 ## TL;DR
 
+<p align="center">
+  <img src="./assets/stevenos-identity-layer.svg" alt="digital-twin identity layer inside StevenOS" width="100%" />
+</p>
+
 `digital-twin` is a file-first blueprint for building a personal agent operating layer: keep your knowledge in inspectable files, route work to focused capabilities, produce durable outputs, and write reusable lessons back into the system.
+
+## Part of StevenOS
+
+`digital-twin` is the **identity layer** in Steven's Personal AI Operating System.
+
+- **Upstream:** Obsidian knowledge, raw notes, personal principles, and style files.
+- **This layer:** turns memory into explicit identity, capability routing, and reusable workflows.
+- **Downstream:** Hermes/OpenClaw-style agents that can act with continuity instead of starting from blank prompts.
+- **Proof:** [`THESIS.md`](./THESIS.md), [`SKILL.md`](./SKILL.md), [`capabilities/`](./capabilities), and [`playground/`](./playground).
 
 If you only have 5 minutes, start here:
 
