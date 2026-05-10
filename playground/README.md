@@ -30,6 +30,8 @@
 - 它把结果写回了系统
 - 它留下了下次还能用的规则
 
+跑完以后，可以用 [`../docs/demo/agent-work-receipt.md`](../docs/demo/agent-work-receipt.md) 记录这次 agent 读了哪些文件、写了哪些文件、还有哪些内容需要人工复查。
+
 如果这四件事发生了，你就已经跑出了自己的最小 twin workflow。
 
 ## 这次 demo 的具体链路

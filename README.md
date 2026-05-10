@@ -42,6 +42,7 @@ If you only have 5 minutes, start here:
 2. Open [`playground/`](./playground) to see the file structure of a personal twin.
 3. Follow [TRY_IT.md](./TRY_IT.md) to run a small writing/research workflow against local files.
 4. Read the [Agent Control Plane demo](./docs/demo/agent-control-plane.md) to see how tasks get auto-run, reviewed, or stopped.
+4. Use the [agent work receipt](./docs/demo/agent-work-receipt.md) to check whether the run wrote real files or only answered in chat.
 5. Browse the live docs: <https://stevenchouai.github.io/digital-twin/>.
 
 ## 🚀 Why `digital-twin`?
@@ -154,7 +155,7 @@ You don't need a massive database to start. The [`playground/`](./playground) fo
 3. Ask the agent to execute it inside the workspace.
 4. Check that it writes a blog draft under `playground/Blog/Published/` and a learning note under `playground/wiki/outputs/agent-learnings/`.
 
-If the agent only returns a chat answer, the demo failed: the operating layer is about retrieval, routing, execution, and write-back. For a stricter proof check, use the [Steven Workflow success checklist](./docs/demo/steven-workflow.md#success-checklist).
+If the agent only returns a chat answer, the demo failed: the operating layer is about retrieval, routing, execution, and write-back. For a stricter proof check, use the [Steven Workflow success checklist](./docs/demo/steven-workflow.md#success-checklist) and fill out the [agent work receipt](./docs/demo/agent-work-receipt.md).
 
 To make it yours, replace the files in `playground/raw/thoughts/` and `wiki/` with your own notes, transcripts, and rules. Keep the loop.
 
@@ -167,6 +168,8 @@ Dive deeper into the philosophy and architecture:
 - [`SKILL.md`](./SKILL.md): How to define specific capabilities.
 - [`docs/demo/proof-chain.md`](./docs/demo/proof-chain.md): A reviewer-facing map from claims to inspectable artifacts.
 - [`docs/demo/change-classification-gate.md`](./docs/demo/change-classification-gate.md): A pre-PR gate for classifying changes as bug fix, feature, docs/process, or needs-owner.
+- [`docs/demo/proof-chain.md`](./docs/demo/proof-chain.md): A reviewer-facing map from claims to inspectable files.
+- [`docs/demo/agent-work-receipt.md`](./docs/demo/agent-work-receipt.md): A copyable receipt template and filled playground example for checking an agent run.
 - [`docs/demo/steven-workflow.md`](./docs/demo/steven-workflow.md): A walkthrough of the self-workflow demo.
 - [`docs/demo/agent-control-plane.md`](./docs/demo/agent-control-plane.md): A small policy demo for deciding when an agent may act, needs review, or must stop.
 

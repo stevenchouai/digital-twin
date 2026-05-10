@@ -28,6 +28,8 @@
 
 如果没有新文件，只是多了一段聊天答案，这次就不算成功。
 
+跑完以后，用 [`docs/demo/agent-work-receipt.md`](./docs/demo/agent-work-receipt.md) 记录这次 agent 到底读了什么、写了什么、哪些证据能证明它真的完成了 workflow、还有哪些地方需要人工复查。
+
 ## Step 3: 换成你自己的内容
 
 把这些东西换成你自己的：
