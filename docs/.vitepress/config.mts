@@ -18,6 +18,7 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
+      { text: '5-Minute Demo', link: '/demo/five-minute-twin' },
       { text: 'Guide', link: '/guide/thesis' },
       { text: 'Proof Chain', link: '/demo/proof-chain' },
       { text: 'Steven Workflow', link: '/demo/steven-workflow' },
@@ -36,6 +37,7 @@ export default defineConfig({
       {
         text: 'Showcase',
         items: [
+          { text: '5-Minute Twin Demo', link: '/demo/five-minute-twin' },
           { text: 'Proof Chain', link: '/demo/proof-chain' },
           { text: 'Steven Workflow', link: '/demo/steven-workflow' },
           { text: 'Elon Musk Demo', link: '/demo/elon-musk' }
