@@ -19,6 +19,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: '5-Minute Demo', link: '/demo/five-minute-twin' },
+      { text: 'Plain English', link: '/guide/plain-english' },
       { text: 'Guide', link: '/guide/thesis' },
       { text: 'Proof Chain', link: '/demo/proof-chain' },
       { text: 'Steven Workflow', link: '/demo/steven-workflow' },
@@ -29,6 +30,7 @@ export default defineConfig({
       {
         text: 'Guide',
         items: [
+          { text: 'Plain-English Tour', link: '/guide/plain-english' },
           { text: 'Thesis', link: '/guide/thesis' },
           { text: 'Workflow', link: '/guide/workflow' },
           { text: 'Skills', link: '/guide/skills' }

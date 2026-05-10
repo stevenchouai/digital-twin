@@ -34,6 +34,7 @@
 If you only have 5 minutes, start here:
 
 1. Try the [5-minute twin demo](./docs/demo/five-minute-twin.md) to inspect the sample files, run one prompt, and check the write-back loop.
+1. Read the [plain-English tour](./docs/guide/plain-english.md) for the core ideas and a 60-second repo path.
 2. Read the [thesis](./THESIS.md) to understand the operating model.
 3. Open [`playground/`](./playground) to see the file structure of a personal twin.
 4. Follow [TRY_IT.md](./TRY_IT.md) to run a small writing/research workflow against local files.
