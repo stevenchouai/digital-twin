@@ -20,6 +20,7 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: '5-Minute Demo', link: '/demo/five-minute-twin' },
       { text: 'Guide', link: '/guide/thesis' },
+      { text: 'Decision Receipt', link: '/demo/decision-receipt' },
       { text: 'Proof Chain', link: '/demo/proof-chain' },
       { text: 'Steven Workflow', link: '/demo/steven-workflow' },
       { text: 'Elon Musk Demo', link: '/demo/elon-musk' }
@@ -38,6 +39,7 @@ export default defineConfig({
         text: 'Showcase',
         items: [
           { text: '5-Minute Twin Demo', link: '/demo/five-minute-twin' },
+          { text: 'Decision Receipt', link: '/demo/decision-receipt' },
           { text: 'Proof Chain', link: '/demo/proof-chain' },
           { text: 'Steven Workflow', link: '/demo/steven-workflow' },
           { text: 'Elon Musk Demo', link: '/demo/elon-musk' }

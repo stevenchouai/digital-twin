@@ -13,6 +13,9 @@ hero:
       text: Read Thesis
       link: /guide/thesis
     - theme: alt
+      text: View Decision Receipt
+      link: /demo/decision-receipt
+    - theme: alt
       text: View Proof Chain
       link: /demo/proof-chain
     - theme: alt
