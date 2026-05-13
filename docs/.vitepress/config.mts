@@ -25,6 +25,7 @@ export default defineConfig({
       { text: 'Proof Chain', link: '/demo/proof-chain' },
       { text: 'Change Classification Gate', link: '/demo/change-classification-gate' },
       { text: 'Work Receipt', link: '/demo/agent-work-receipt' },
+      { text: 'Capability Contract', link: '/demo/capability-contract' },
       { text: 'Steven Workflow', link: '/demo/steven-workflow' },
       { text: 'Agent Control Plane', link: '/demo/agent-control-plane' },
       { text: 'Elon Musk Demo', link: '/demo/elon-musk' }
@@ -48,6 +49,7 @@ export default defineConfig({
           { text: 'Proof Chain', link: '/demo/proof-chain' },
           { text: 'Change Classification Gate', link: '/demo/change-classification-gate' },
           { text: 'Agent Work Receipt', link: '/demo/agent-work-receipt' },
+          { text: 'Capability Contract', link: '/demo/capability-contract' },
           { text: 'Steven Workflow', link: '/demo/steven-workflow' },
           { text: 'Agent Control Plane', link: '/demo/agent-control-plane' },
           { text: 'Elon Musk Demo', link: '/demo/elon-musk' }
