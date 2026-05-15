@@ -25,6 +25,9 @@ hero:
     - theme: alt
       text: Run Steven Workflow
       link: /demo/steven-workflow
+    - theme: alt
+      text: See Agent Control Plane
+      link: /demo/agent-control-plane
 
 features:
   - title: 5-Minute Twin Demo
@@ -39,4 +42,6 @@ features:
     details: Keeps writing, research, wiki management, resume work, site improvement, and learning loops as modular workflow files.
   - title: 🔄 Write-back Learning
     details: Produces durable files and saves reusable rules, preferences, and failure modes for the next run.
+  - title: Operator Control
+    details: Shows when an agent can auto-run, when it needs review, and when it must stop before touching risky work.
 ---

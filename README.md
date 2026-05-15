@@ -38,6 +38,10 @@ If you only have 5 minutes, start here:
 2. Read the [thesis](./THESIS.md) to understand the operating model.
 3. Open [`playground/`](./playground) to see the file structure of a personal twin.
 4. Follow [TRY_IT.md](./TRY_IT.md) to run a small writing/research workflow against local files.
+1. Read the [thesis](./THESIS.md) to understand the operating model.
+2. Open [`playground/`](./playground) to see the file structure of a personal twin.
+3. Follow [TRY_IT.md](./TRY_IT.md) to run a small writing/research workflow against local files.
+4. Read the [Agent Control Plane demo](./docs/demo/agent-control-plane.md) to see how tasks get auto-run, reviewed, or stopped.
 5. Browse the live docs: <https://stevenchouai.github.io/digital-twin/>.
 
 ## 🚀 Why `digital-twin`?
@@ -164,6 +168,7 @@ Dive deeper into the philosophy and architecture:
 - [`docs/demo/proof-chain.md`](./docs/demo/proof-chain.md): A reviewer-facing map from claims to inspectable artifacts.
 - [`docs/demo/change-classification-gate.md`](./docs/demo/change-classification-gate.md): A pre-PR gate for classifying changes as bug fix, feature, docs/process, or needs-owner.
 - [`docs/demo/steven-workflow.md`](./docs/demo/steven-workflow.md): A walkthrough of the self-workflow demo.
+- [`docs/demo/agent-control-plane.md`](./docs/demo/agent-control-plane.md): A small policy demo for deciding when an agent may act, needs review, or must stop.
 
 ## 🤝 Contributing
 Contributions are welcome when they make the operating loop easier to inspect, run, or adapt. Please read [CONTRIBUTING.md](./CONTRIBUTING.md) before opening a PR.
