@@ -11,6 +11,10 @@ hero:
       link: /demo/five-minute-twin
     - theme: alt
       text: Read Thesis
+      text: Plain-English Tour
+      link: /guide/plain-english
+    - theme: alt
+      text: Get Started
       link: /guide/thesis
     - theme: alt
       text: View Proof Chain
@@ -22,6 +26,8 @@ hero:
 features:
   - title: 5-Minute Twin Demo
     details: Inspect the public sample files, choose a capability, run one prompt, and verify the durable write-back loop.
+  - title: Plain-English Tour
+    details: New to the repo? Start with a short explanation of the main terms and the files that prove each one.
   - title: 🧠 Personal Wiki First
     details: Reads wiki/, prior outputs, summaries, and agent-learnings/ before acting, so context lives outside the chat window.
   - title: 🧭 Intent Routing
