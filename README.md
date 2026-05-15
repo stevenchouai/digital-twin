@@ -43,6 +43,7 @@ If you only have 5 minutes, start here:
 3. Follow [TRY_IT.md](./TRY_IT.md) to run a small writing/research workflow against local files.
 4. Read the [Agent Control Plane demo](./docs/demo/agent-control-plane.md) to see how tasks get auto-run, reviewed, or stopped.
 4. Use the [agent work receipt](./docs/demo/agent-work-receipt.md) to check whether the run wrote real files or only answered in chat.
+4. Review the [capability contract demo](./docs/demo/capability-contract.md) to see how agent autonomy is bounded before execution.
 5. Browse the live docs: <https://stevenchouai.github.io/digital-twin/>.
 
 ## 🚀 Why `digital-twin`?
@@ -170,6 +171,7 @@ Dive deeper into the philosophy and architecture:
 - [`docs/demo/change-classification-gate.md`](./docs/demo/change-classification-gate.md): A pre-PR gate for classifying changes as bug fix, feature, docs/process, or needs-owner.
 - [`docs/demo/proof-chain.md`](./docs/demo/proof-chain.md): A reviewer-facing map from claims to inspectable files.
 - [`docs/demo/agent-work-receipt.md`](./docs/demo/agent-work-receipt.md): A copyable receipt template and filled playground example for checking an agent run.
+- [`docs/demo/capability-contract.md`](./docs/demo/capability-contract.md): A public-safe contract for bounding an agent before it edits files.
 - [`docs/demo/steven-workflow.md`](./docs/demo/steven-workflow.md): A walkthrough of the self-workflow demo.
 - [`docs/demo/agent-control-plane.md`](./docs/demo/agent-control-plane.md): A small policy demo for deciding when an agent may act, needs review, or must stop.
 
