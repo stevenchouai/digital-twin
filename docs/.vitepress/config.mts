@@ -21,6 +21,7 @@ export default defineConfig({
       { text: '5-Minute Demo', link: '/demo/five-minute-twin' },
       { text: 'Plain English', link: '/guide/plain-english' },
       { text: 'Guide', link: '/guide/thesis' },
+      { text: 'Decision Receipt', link: '/demo/decision-receipt' },
       { text: 'Proof Chain', link: '/demo/proof-chain' },
       { text: 'Change Classification Gate', link: '/demo/change-classification-gate' },
       { text: 'Steven Workflow', link: '/demo/steven-workflow' },
@@ -41,6 +42,7 @@ export default defineConfig({
         text: 'Showcase',
         items: [
           { text: '5-Minute Twin Demo', link: '/demo/five-minute-twin' },
+          { text: 'Decision Receipt', link: '/demo/decision-receipt' },
           { text: 'Proof Chain', link: '/demo/proof-chain' },
           { text: 'Change Classification Gate', link: '/demo/change-classification-gate' },
           { text: 'Steven Workflow', link: '/demo/steven-workflow' },
