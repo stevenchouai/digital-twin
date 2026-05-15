@@ -39,8 +39,9 @@ The demo task is simple: turn one raw thought into a publishable blog draft. The
 2. Run that prompt inside Cursor, Claude Code, Codex, Windsurf, or another agent runner with repository file access.
 3. Confirm that the agent writes a draft under `playground/Blog/Published/`.
 4. Confirm that it writes a reusable learning note under `playground/wiki/outputs/agent-learnings/`.
+5. Fill out the [Agent Work Receipt](/demo/agent-work-receipt) so a reviewer can inspect what was requested, what files were read or changed, what evidence supports completion, and what still needs review.
 
-If the agent only returns a chat response, the demo did not succeed. The whole point is to move from answer generation to asset generation.
+If the agent only returns a chat response, the demo did not succeed. The whole point is to move from answer generation to file generation.
 
 ## Success Checklist
 
@@ -48,9 +49,10 @@ Use this checklist after a run to separate a real Personal Agent OS loop from a 
 
 - [ ] **Retrieval happened first** — the agent referenced `wiki/_index.md`, prior published work, summaries, and durable writing rules before drafting.
 - [ ] **Routing was explicit** — the run named the content creation capability and followed its file/output contract.
-- [ ] **A durable artifact exists** — the draft was written under `playground/Blog/Published/`, not only returned in chat.
+- [ ] **A durable draft exists** — the draft was written under `playground/Blog/Published/`, not only returned in chat.
 - [ ] **Learning was captured** — a reusable rule, preference, or skip condition was written under `playground/wiki/outputs/agent-learnings/`.
 - [ ] **The output is non-duplicative** — the draft explains how it differs from the existing `ai-workflow-is-the-product` post.
+- [ ] **A receipt was filled out** — the run records requested work, files read, files written, evidence, and remaining review items.
 
 Common failure modes are also useful signal: if the agent ignores the wiki, writes to the wrong folder, duplicates an existing essay, or leaves no learning note, the operating layer needs a tighter capability file or index entry.
 
@@ -69,9 +71,9 @@ Common failure modes are also useful signal: if the agent ignores the wiki, writ
 To turn this into your own Personal Agent OS seed, replace the content while keeping the structure:
 
 - Put your notes, transcripts, and research in `raw/thoughts/`.
-- Maintain a small `wiki/_index.md` that points the agent to current assets.
+- Maintain a small `wiki/_index.md` that points the agent to current files.
 - Keep prior outputs visible so the agent can avoid repetition.
 - Save durable preferences and failure modes under `wiki/outputs/agent-learnings/`.
 - Add capability files when a workflow becomes repeated enough to deserve a stable protocol.
 
-The originality of the system comes from the accumulated work trace: your judgments, rules, outputs, and learning notes. The template only provides the operating layer.
+The originality of the system comes from the accumulated work trace: your judgments, rules, outputs, and learning notes. The template only provides the operating structure.

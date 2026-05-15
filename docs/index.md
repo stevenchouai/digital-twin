@@ -23,6 +23,9 @@ hero:
       text: View Proof Chain
       link: /demo/proof-chain
     - theme: alt
+      text: Use Work Receipt
+      link: /demo/agent-work-receipt
+    - theme: alt
       text: Run Steven Workflow
       link: /demo/steven-workflow
     - theme: alt
@@ -44,4 +47,6 @@ features:
     details: Produces durable files and saves reusable rules, preferences, and failure modes for the next run.
   - title: Operator Control
     details: Shows when an agent can auto-run, when it needs review, and when it must stop before touching risky work.
+  - title: Agent Work Receipt
+    details: Gives reviewers a simple template for checking what was requested, which files changed, what evidence exists, and what still needs human review.
 ---
