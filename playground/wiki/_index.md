@@ -12,7 +12,7 @@
 
 ### Published Articles
 
-- [`2026-04-10-ai-workflow-is-the-product.md`](../../Blog/Published/2026-04-10-ai-workflow-is-the-product.md)
+- [`2026-04-10-ai-workflow-is-the-product.md`](../Blog/Published/2026-04-10-ai-workflow-is-the-product.md)
 
 ### Summaries
 

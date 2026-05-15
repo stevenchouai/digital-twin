@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#020617"/><stop offset="1" stop-color="#111827"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.6"/></pattern>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#a78bfa"/></marker>
+    <style>text{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;fill:#e5e7eb}.title{font-size:42px;font-weight:800;fill:#f8fafc}.muted{font-size:18px;fill:#94a3b8}.section{font-size:20px;font-weight:700;fill:#f8fafc}.tiny{font-size:13px;fill:#94a3b8}.box{fill:#0f172a;stroke:#334155;stroke-width:1.4;rx:14}.cyan{stroke:#22d3ee}.violet{stroke:#a78bfa}.green{stroke:#34d399}.amber{stroke:#fbbf24}</style>
+  </defs>
+  <rect width="1200" height="520" fill="url(#bg)"/><rect width="1200" height="520" fill="url(#grid)" opacity="0.75"/>
+  <text x="60" y="72" class="title">digital-twin identity layer</text><text x="62" y="110" class="muted">A file-first blueprint that lets agents inherit logic, style, memory, and workflows.</text>
+  <rect x="70" y="210" width="210" height="118" class="box cyan"/><text x="100" y="250" class="section">Memory</text><text x="100" y="280" class="tiny">notes, context, source files</text>
+  <rect x="350" y="160" width="220" height="118" class="box violet"/><text x="380" y="200" class="section">Identity</text><text x="380" y="230" class="tiny">principles, style, preferences</text>
+  <rect x="350" y="320" width="220" height="118" class="box green"/><text x="380" y="360" class="section">Capabilities</text><text x="380" y="390" class="tiny">focused workflows and skills</text>
+  <rect x="650" y="240" width="220" height="118" class="box amber"/><text x="680" y="280" class="section">Agent work</text><text x="680" y="310" class="tiny">durable outputs, not chats</text>
+  <rect x="950" y="240" width="190" height="118" class="box cyan"/><text x="980" y="280" class="section">Write-back</text><text x="980" y="310" class="tiny">lessons become reusable</text>
+  <path d="M280 270 C310 240 325 220 342 220" stroke="#a78bfa" stroke-width="2" fill="none" marker-end="url(#arrow)"/><path d="M280 285 C315 330 325 375 342 380" stroke="#a78bfa" stroke-width="2" fill="none" marker-end="url(#arrow)"/><path d="M570 220 C620 230 630 270 642 290" stroke="#a78bfa" stroke-width="2" fill="none" marker-end="url(#arrow)"/><path d="M570 380 C620 370 630 325 642 305" stroke="#a78bfa" stroke-width="2" fill="none" marker-end="url(#arrow)"/><path d="M870 300 H942" stroke="#a78bfa" stroke-width="2" marker-end="url(#arrow)"/>
+</svg>
