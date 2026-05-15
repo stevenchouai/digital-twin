@@ -161,6 +161,7 @@ Dive deeper into the philosophy and architecture:
 - [`WORKFLOW.md`](./WORKFLOW.md): How the 5-step loop actually runs under the hood.
 - [`SKILL.md`](./SKILL.md): How to define specific capabilities.
 - [`docs/demo/proof-chain.md`](./docs/demo/proof-chain.md): A reviewer-facing map from claims to inspectable artifacts.
+- [`docs/demo/change-classification-gate.md`](./docs/demo/change-classification-gate.md): A pre-PR gate for classifying changes as bug fix, feature, docs/process, or needs-owner.
 - [`docs/demo/steven-workflow.md`](./docs/demo/steven-workflow.md): A walkthrough of the self-workflow demo.
 
 ## 🤝 Contributing

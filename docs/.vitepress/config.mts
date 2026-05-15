@@ -21,6 +21,7 @@ export default defineConfig({
       { text: '5-Minute Demo', link: '/demo/five-minute-twin' },
       { text: 'Guide', link: '/guide/thesis' },
       { text: 'Proof Chain', link: '/demo/proof-chain' },
+      { text: 'Change Classification Gate', link: '/demo/change-classification-gate' },
       { text: 'Steven Workflow', link: '/demo/steven-workflow' },
       { text: 'Elon Musk Demo', link: '/demo/elon-musk' }
     ],
@@ -39,6 +40,7 @@ export default defineConfig({
         items: [
           { text: '5-Minute Twin Demo', link: '/demo/five-minute-twin' },
           { text: 'Proof Chain', link: '/demo/proof-chain' },
+          { text: 'Change Classification Gate', link: '/demo/change-classification-gate' },
           { text: 'Steven Workflow', link: '/demo/steven-workflow' },
           { text: 'Elon Musk Demo', link: '/demo/elon-musk' }
         ]
