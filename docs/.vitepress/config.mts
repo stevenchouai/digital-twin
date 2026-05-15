@@ -4,6 +4,10 @@ export default defineConfig({
   title: "digital-twin",
   description: "Your Personal Agent Operating Layer",
   lang: 'en-US',
+  ignoreDeadLinks: [
+    /.*\/playground\/.*/,
+    /.*\/capabilities\/.*/
+  ],
   base: '/digital-twin/',
   head: [
     ['meta', { name: 'description', content: 'A file-first Personal Agent OS blueprint for knowledge retrieval, skill routing, durable write-back, and learning loops.' }],

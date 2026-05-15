@@ -10,7 +10,6 @@ hero:
       text: Try 5-Minute Demo
       link: /demo/five-minute-twin
     - theme: alt
-      text: Read Thesis
       text: Plain-English Tour
       link: /guide/plain-english
     - theme: alt
