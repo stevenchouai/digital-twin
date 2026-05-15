@@ -7,7 +7,10 @@ hero:
   tagline: "Build an AI operating layer that retrieves your knowledge, routes to your skills, writes durable outputs, and learns back into your workflow."
   actions:
     - theme: brand
-      text: Get Started
+      text: Try 5-Minute Demo
+      link: /demo/five-minute-twin
+    - theme: alt
+      text: Read Thesis
       link: /guide/thesis
     - theme: alt
       text: View Proof Chain
@@ -17,6 +20,8 @@ hero:
       link: /demo/steven-workflow
 
 features:
+  - title: 5-Minute Twin Demo
+    details: Inspect the public sample files, choose a capability, run one prompt, and verify the durable write-back loop.
   - title: 🧠 Personal Wiki First
     details: Reads wiki/, prior outputs, summaries, and agent-learnings/ before acting, so context lives outside the chat window.
   - title: 🧭 Intent Routing

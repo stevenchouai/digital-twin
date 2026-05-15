@@ -33,10 +33,11 @@
 
 If you only have 5 minutes, start here:
 
-1. Read the [thesis](./THESIS.md) to understand the operating model.
-2. Open [`playground/`](./playground) to see the file structure of a personal twin.
-3. Follow [TRY_IT.md](./TRY_IT.md) to run a small writing/research workflow against local files.
-4. Browse the live docs: <https://stevenchouai.github.io/digital-twin/>.
+1. Try the [5-minute twin demo](./docs/demo/five-minute-twin.md) to inspect the sample files, run one prompt, and check the write-back loop.
+2. Read the [thesis](./THESIS.md) to understand the operating model.
+3. Open [`playground/`](./playground) to see the file structure of a personal twin.
+4. Follow [TRY_IT.md](./TRY_IT.md) to run a small writing/research workflow against local files.
+5. Browse the live docs: <https://stevenchouai.github.io/digital-twin/>.
 
 ## 🚀 Why `digital-twin`?
 
